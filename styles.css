@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background:  rgb(138, 219, 91);
+    font-family: sans-serif;
 }
 
 div.header-bckcolor {
@@ -21,13 +22,7 @@ div.navigation-bckcolor {
 }
 
 div.navigation-panel {
-    width: 500px;
-    height: 30px;
-    margin: auto;
-}
-
-div.navigation-links-block {
-    margin: auto;
+    margin: 0px 680px;
     width: 300 px;
     height: 30px;
 }
