@@ -1,13 +1,57 @@
 body {
+    margin: 0px;
     background:  rgb(138, 219, 91);
 }
 
 div.header-bckcolor {
+    height: 50px;
     background-color: rgb(200, 69, 13);
 }
 
 div.heading-text {
     text-align: center;
     font-size: 150%;
-    color: black;  
+    padding-top: 8px;
+    color: white;  
+}
+
+div.navigation-bckcolor {
+    height: 30px;
+    background-color: #fab447;
+}
+
+div.navigation-panel {
+    width: 500px;
+    height: 30px;
+    margin: auto;
+}
+
+div.navigation-links-block {
+    margin: auto;
+    width: 300 px;
+    height: 30px;
+}
+
+a.navigation-link {
+    color: rgb(233, 222, 222);
+    height: 25px;
+    display: inline-block;
+    margin: 3px 12px;
+    border-bottom: 2px solid #fab447;
+    text-decoration: none;
+}
+
+a.navigation-link:visited {
+    border-bottom: 2px solid #fab447;
+}
+
+a.navigation-link:hover {
+    color:white;
+    border-bottom: 2px solid white;
+}
+
+a.navigation-link:active {
+    color:white;
+    text-shadow: 0px 0px 5px whitesmoke;
+    border-bottom: 2px solid white;
 }
