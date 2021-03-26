@@ -2,6 +2,10 @@ body {
     background:  rgb(138, 219, 91);
 }
 
+div.header-bckcolor {
+    background-color: rgb(200, 69, 13);
+}
+
 div.heading-text {
     text-align: center;
     font-size: 150%;
